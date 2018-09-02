@@ -1,0 +1,43 @@
+
+.sectionComoFuncionaWrapper{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 4rem 0;
+
+
+    &--title--wrapper{
+    margin-bottom: 3rem;
+    }
+
+    &--title{
+        font-size: 2.5rem;
+        color: #444;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+    }
+    
+    &--title span{
+        color: #45c3d3;
+        display: inline-block;
+        border-bottom: 4px solid #45c3d3;
+    }
+    
+    &--paragrafo{
+        font-size: 1.1rem;
+        color: #818181;
+
+    }
+    
+    &--process--container{
+        width: 100%;
+        height: auto;
+    }
+    
+    &--process--wrapper{
+        width:33%;
+        float: left;
+    }
+}

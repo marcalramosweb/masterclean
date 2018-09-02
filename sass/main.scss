@@ -1,0 +1,44 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+
+@import "base/base";
+@import "base/animation";
+@import "base/utilities";
+@import "base/typography";
+
+
+@import "pages/home";
+
+
+@import "components/button";
+@import "components/navigation";
+@import "components/parceiros";
+
+@import "components/comoFunciona";
+
+
+@import "layout/topSection";
+
+
+
+
+.btn-form{
+    font-size: 1.4rem;
+    padding: 1.3rem;
+    width: 30%;
+    background-color: #45c3d3;
+    cursor: pointer;
+    color: $color-white;
+    border: 1px 1px 1px 0px solid #ebebeb;
+}
+
+
+
+
+
+
+
+
+

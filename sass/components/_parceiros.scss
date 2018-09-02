@@ -1,0 +1,26 @@
+/*Perceiros*/
+.sectionParceiros{
+    width: 100%;
+    height: auto;
+    background-color: $color-light-gray;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #ddd;
+
+    &--title{
+        display: block;
+        padding-top:2rem;
+        padding-bottom: 1.5rem;
+        font-weight: 300;
+    }
+    
+    &--img{
+        display: block;
+        height: auto;
+    }
+    
+    & img{
+        width: 100px;
+        margin-left: 4rem;
+    }
+}

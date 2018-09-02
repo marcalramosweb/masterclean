@@ -1,0 +1,212 @@
+/*Variaveis*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #777; }
+
+/* Navigation menu */
+.container--fluid {
+  width: 100%;
+  height: auto; }
+
+.div--container {
+  max-width: 114rem;
+  margin: 0 auto; }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.clearFix {
+  content: "";
+  display: table;
+  clear: both; }
+
+.btn {
+  background-color: #37a7cc;
+  border-radius: 4px;
+  border: 2px solid #929191; }
+
+.btn-book a {
+  color: #fff;
+  padding: 1.5rem 2rem; }
+
+.navigation {
+  width: 100%;
+  height: 75px;
+  padding: 2rem 0; }
+  .navigation--logo--wrapper {
+    width: 20%;
+    color: #333;
+    float: left; }
+  .navigation--brand {
+    padding: 0rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400; }
+  .navigation--brand h2 span {
+    color: #37a7cc; }
+  .navigation--menu {
+    width: 80%;
+    height: auto;
+    float: left;
+    padding: .5rem 5rem .5rem 2rem; }
+  .navigation--menu ul {
+    list-style: none;
+    text-align: right; }
+  .navigation--menu ul li {
+    display: inline-block;
+    padding: .4rem;
+    font-size: 1.2rem;
+    font-weight: 300; }
+  .navigation--link {
+    text-decoration: none; }
+  .navigation--item {
+    margin-right: 1.5rem;
+    border: 1px solid #e7e5e5;
+    border-radius: 4px; }
+  .navigation::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/*Perceiros*/
+.sectionParceiros {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #ddd; }
+  .sectionParceiros--title {
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 300; }
+  .sectionParceiros--img {
+    display: block;
+    height: auto; }
+  .sectionParceiros img {
+    width: 100px;
+    margin-left: 4rem; }
+
+.sectionComoFuncionaWrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 4rem 0; }
+  .sectionComoFuncionaWrapper--title--wrapper {
+    margin-bottom: 3rem; }
+  .sectionComoFuncionaWrapper--title {
+    font-size: 2.5rem;
+    color: #444;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 25px; }
+  .sectionComoFuncionaWrapper--title span {
+    color: #45c3d3;
+    display: inline-block;
+    border-bottom: 4px solid #45c3d3; }
+  .sectionComoFuncionaWrapper--paragrafo {
+    font-size: 1.1rem;
+    color: #818181; }
+  .sectionComoFuncionaWrapper--process--container {
+    width: 100%;
+    height: auto; }
+  .sectionComoFuncionaWrapper--process--wrapper {
+    width: 33%;
+    float: left; }
+
+/* top hero section */
+.section {
+  width: 100;
+  height: 85vh;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-hero2.jpeg");
+  background-position: center;
+  background-size: cover;
+  /*form*/ }
+  .section--wrapper {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; }
+  .section--title {
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 55px rgba(0, 0, 0, 0.47);
+    animation: moveInLeft 2.5s ease-out; }
+  .section--paragraph {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    text-shadow: 1px 1px 55px rgba(0, 0, 0, 0.37);
+    letter-spacing: 1px;
+    font-weight: 300;
+    animation: moveInRight 2.5s ease-out; }
+  .section--form_wrapper {
+    margin: 5rem 0 0; }
+  .section--form {
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle; }
+  .section--input--address {
+    border: 1px 0px 1px 1px solid #ebebeb;
+    padding: 1.3rem;
+    width: 48%;
+    line-height: normal;
+    font-family: inherit;
+    font-size: 1.1rem;
+    margin: 0;
+    overflow: visible; }
+  .section--input--houseNumber {
+    width: 22%;
+    padding: 1.3rem;
+    line-height: normal;
+    font-size: 1.1rem;
+    margin: 0;
+    overflow: visible;
+    border: 1px 0px 1px 1px solid #ebebeb; }
+
+form {
+  display: block; }
+
+.btn-form {
+  font-size: 1.4rem;
+  padding: 1.3rem;
+  width: 30%;
+  background-color: #45c3d3;
+  cursor: pointer;
+  color: #fff;
+  border: 1px 1px 1px 0px solid #ebebeb; }
