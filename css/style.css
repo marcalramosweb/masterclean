@@ -131,7 +131,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 10rem 0 10rem; }
+  padding: 5rem 0 10rem; }
   .sectionComoFuncionaWrapper--title--wrapper {
     margin-bottom: 5rem; }
   .sectionComoFuncionaWrapper--title {
@@ -168,7 +168,7 @@ body {
 .sectionTestemunhos {
   width: 100%;
   height: auto;
-  padding: 10rem 0;
+  padding: 5rem 0 10rem;
   background-color: #f1f1f1; }
   .sectionTestemunhos--titleWrapper {
     width: 80%;
@@ -202,7 +202,8 @@ body {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    overflow: hidden; }
+    overflow: hidden;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); }
   .sectionTestemunhos--testemunhos {
     width: 20rem;
     display: block;
