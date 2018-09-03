@@ -22,7 +22,7 @@
     &--title span{
         color: #45c3d3;
         display: inline-block;
-        border-bottom: 4px solid #45c3d3;
+        border-bottom: 4px solid $color-lightblue;
     }
     
     &--paragrafo{
@@ -40,4 +40,22 @@
         width:33%;
         float: left;
     }
+
+    &--iconClass{
+        font-size: 6.6rem;
+        color: $color-lightblue;
+    }
+
+    & h4{
+        font-size: 1.5rem;
+        margin: 1rem 0 .4rem;
+        font-weight: 400;
+        color: $color-lightBlack;
+    }
+
+    & p{
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
 }

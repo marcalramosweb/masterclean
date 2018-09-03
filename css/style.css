@@ -54,6 +54,15 @@ body {
   color: #fff;
   padding: 1.5rem 2rem; }
 
+.btn-form {
+  font-size: 1.4rem;
+  padding: 1.3rem;
+  width: 30%;
+  background-color: #45c3d3;
+  cursor: pointer;
+  color: #fff;
+  border: 1px 1px 1px 0px solid #ebebeb; }
+
 .navigation {
   width: 100%;
   height: 75px;
@@ -140,6 +149,17 @@ body {
   .sectionComoFuncionaWrapper--process--wrapper {
     width: 33%;
     float: left; }
+  .sectionComoFuncionaWrapper--iconClass {
+    font-size: 6.6rem;
+    color: #45c3d3; }
+  .sectionComoFuncionaWrapper h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0 .4rem;
+    font-weight: 400;
+    color: #333; }
+  .sectionComoFuncionaWrapper p {
+    font-size: 1rem;
+    line-height: 1.5; }
 
 /* top hero section */
 .section {
@@ -201,12 +221,3 @@ body {
 
 form {
   display: block; }
-
-.btn-form {
-  font-size: 1.4rem;
-  padding: 1.3rem;
-  width: 30%;
-  background-color: #45c3d3;
-  cursor: pointer;
-  color: #fff;
-  border: 1px 1px 1px 0px solid #ebebeb; }
