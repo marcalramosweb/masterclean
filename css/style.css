@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #777; }
 
 /* Navigation menu */
@@ -83,7 +83,7 @@ body {
     width: 80%;
     height: auto;
     float: left;
-    padding: .5rem 5rem .5rem 2rem; }
+    padding: 0rem 5rem 0rem 2rem; }
   .navigation--menu ul {
     list-style: none;
     text-align: right; }
@@ -93,7 +93,10 @@ body {
     font-size: 1.2rem;
     font-weight: 300; }
   .navigation--link {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #777; }
+  .navigation--link:hover {
+    color: #333; }
   .navigation--item {
     margin-right: 1.5rem;
     border: 1px solid #e7e5e5;
@@ -112,26 +115,27 @@ body {
   padding-bottom: 3rem;
   border-bottom: 2px solid #ddd; }
   .sectionParceiros--title {
-    display: block;
+    display: inline-block;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
-    font-weight: 300; }
+    font-weight: 700; }
   .sectionParceiros--img {
     display: block;
     height: auto; }
   .sectionParceiros img {
-    width: 100px;
+    width: 100px; }
+  .sectionParceiros img:not(:first-child) {
     margin-left: 4rem; }
 
 .sectionComoFuncionaWrapper {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 4rem 0; }
+  padding: 10rem 0 10rem; }
   .sectionComoFuncionaWrapper--title--wrapper {
-    margin-bottom: 3rem; }
+    margin-bottom: 5rem; }
   .sectionComoFuncionaWrapper--title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #444;
     font-weight: 700;
     text-transform: capitalize;
@@ -141,7 +145,7 @@ body {
     display: inline-block;
     border-bottom: 4px solid #45c3d3; }
   .sectionComoFuncionaWrapper--paragrafo {
-    font-size: 1.1rem;
+    font-size: 1.3rem !important;
     color: #818181; }
   .sectionComoFuncionaWrapper--process--container {
     width: 100%;
@@ -150,7 +154,7 @@ body {
     width: 33%;
     float: left; }
   .sectionComoFuncionaWrapper--iconClass {
-    font-size: 6.6rem;
+    font-size: 8rem;
     color: #45c3d3; }
   .sectionComoFuncionaWrapper h4 {
     font-size: 1.5rem;
@@ -164,16 +168,74 @@ body {
 .sectionTestemunhos {
   width: 100%;
   height: auto;
-  padding: 6rem 0;
+  padding: 10rem 0;
   background-color: #f1f1f1; }
+  .sectionTestemunhos--titleWrapper {
+    width: 80%;
+    height: auto;
+    margin: 0 auto 8rem auto;
+    text-align: center; }
+  .sectionTestemunhos--titleWrapper h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333; }
+  .sectionTestemunhos--titleWrapper p {
+    font-size: 1.3rem;
+    line-height: 1.2; }
+  .sectionTestemunhos--contentWrapper {
+    width: 100%;
+    height: auto; }
+  .sectionTestemunhos--content {
+    width: 25%;
+    float: left; }
+  .sectionTestemunhos img {
+    height: 100%;
+    transition: all .5s; }
+  .sectionTestemunhos img:hover {
+    transform: scale(1.2);
+    cursor: pointer; }
+  .sectionTestemunhos--imageHolder {
+    width: 15.6rem;
+    height: 15.6rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden; }
+  .sectionTestemunhos--testemunhos {
+    width: 20rem;
+    display: block;
+    margin: 0 auto; }
+  .sectionTestemunhos--message {
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1.4; }
+  .sectionTestemunhos--message span {
+    display: inline-block;
+    font-weight: 700;
+    color: #333;
+    font-size: 1.3rem;
+    margin-right: .5rem; }
+  .sectionTestemunhos--cargo {
+    display: block !important;
+    margin-top: 1.3rem;
+    margin-right: 2rem !important;
+    font-weight: 300 !important;
+    font-size: 1.1rem !important;
+    font-style: italic;
+    text-align: right; }
+  .sectionTestemunhos--cargo small {
+    font-weight: 700;
+    font-size: 1.1rem; }
 
 /* top hero section */
 .section {
   width: 100;
-  height: 85vh;
+  height: 90vh;
   overflow: hidden;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/bg-hero2.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg-hero2.jpeg");
   background-position: center;
   background-size: cover;
   /*form*/ }
@@ -181,7 +243,7 @@ body {
     width: 65%;
     height: auto;
     position: absolute;
-    top: 45%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -196,12 +258,14 @@ body {
   .section--paragraph {
     font-size: 1.3rem;
     line-height: 1.4;
+    width: 70%;
+    margin: 0 auto;
     text-shadow: 1px 1px 55px rgba(0, 0, 0, 0.37);
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
     animation: moveInRight 2.5s ease-out; }
   .section--form_wrapper {
-    margin: 5rem 0 0; }
+    margin: 8rem 0 0; }
   .section--form {
     width: 100%;
     position: relative;

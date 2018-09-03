@@ -1,6 +1,91 @@
 .sectionTestemunhos{
     width: 100%;
     height: auto;
-    padding: 6rem 0;
+    padding: 10rem 0;
     background-color: #f1f1f1;
+
+    &--titleWrapper{
+        width: 80%;
+        height: auto;
+        margin: 0 auto 8rem auto;
+        text-align: center;
+    }
+
+    &--titleWrapper h1{
+        font-size: 3.5rem;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: $color-lightBlack;
+    }
+
+    &--titleWrapper p{
+        font-size: 1.3rem;
+        line-height: 1.2;
+    }
+
+    &--contentWrapper{
+        width: 100%;
+        height: auto;
+    }
+
+    &--content{
+        width: 25%;
+        float: left;
+    }
+
+    & img{
+        height:100%;
+        transition: all .5s;
+    }
+
+    & img:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+
+    &--imageHolder{
+        width: 15.6rem;
+        height: 15.6rem;
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    &--testemunhos{
+        width: 20rem;
+        display: block;
+        margin: 0 auto;
+    }
+
+    &--message{
+        margin-top: 2rem;
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    &--message span{
+        display: inline-block;
+        font-weight: 700;
+        color: $color-lightBlack;
+        font-size: 1.3rem;
+        margin-right: .5rem;
+    }
+
+    &--cargo{
+        display: block !important;
+        margin-top: 1.3rem;
+        margin-right: 2rem !important;
+        font-weight: 300 !important;
+        font-size: 1.1rem !important;
+        font-style: italic;
+        text-align: right;
+    }
+
+    &--cargo small{
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
 }
+
