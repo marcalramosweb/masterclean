@@ -146,7 +146,7 @@ body {
     border-bottom: 4px solid #45c3d3; }
   .sectionComoFuncionaWrapper--paragrafo {
     font-size: 1.3rem !important;
-    color: #818181; }
+    color: #333; }
   .sectionComoFuncionaWrapper--process--container {
     width: 100%;
     height: auto; }
@@ -168,7 +168,7 @@ body {
 .sectionTestemunhos {
   width: 100%;
   height: auto;
-  padding: 5rem 0 10rem;
+  padding: 5rem 0 6rem;
   background-color: #f1f1f1; }
   .sectionTestemunhos--titleWrapper {
     width: 80%;
@@ -180,10 +180,11 @@ body {
     text-transform: capitalize;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: #333; }
+    color: #45c3d3; }
   .sectionTestemunhos--titleWrapper p {
     font-size: 1.3rem;
-    line-height: 1.2; }
+    line-height: 1.2;
+    color: #777; }
   .sectionTestemunhos--contentWrapper {
     width: 100%;
     height: auto; }
@@ -229,6 +230,36 @@ body {
   .sectionTestemunhos--cargo small {
     font-weight: 700;
     font-size: 1.1rem; }
+
+.sectionNewsletter {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 5rem 0 10rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/newsletterbg.jpg");
+  background-position: center;
+  background-size: cover; }
+  .sectionNewsletter--title {
+    width: 60%;
+    height: auto;
+    display: inline-block; }
+  .sectionNewsletter h3 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #fff; }
+  .sectionNewsletter p {
+    font-size: 1.3rem;
+    color: #fff; }
+  .sectionNewsletter--fromContainer {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto; }
+  .sectionNewsletter .section--input--address {
+    width: 70%; }
+  .sectionNewsletter .section--form_wrapper {
+    margin-top: 4rem; }
+  .sectionNewsletter .section--form {
+    width: 65%; }
 
 /* top hero section */
 .section {

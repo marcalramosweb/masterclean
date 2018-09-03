@@ -1,7 +1,7 @@
 .sectionTestemunhos{
     width: 100%;
     height: auto;
-    padding: 5rem 0 10rem;
+    padding: 5rem 0 6rem;
     background-color: #f1f1f1;
 
     &--titleWrapper{
@@ -16,12 +16,13 @@
         text-transform: capitalize;
         font-weight: 700;
         margin-bottom: 1rem;
-        color: $color-lightBlack;
+        color: $color-lightblue;
     }
 
     &--titleWrapper p{
         font-size: 1.3rem;
         line-height: 1.2;
+        color: #777;
     }
 
     &--contentWrapper{
