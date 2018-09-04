@@ -189,7 +189,7 @@ body {
     width: 100%;
     height: auto; }
   .sectionTestemunhos--content {
-    width: 25%;
+    width: 33%;
     float: left; }
   .sectionTestemunhos img {
     height: 100%;
@@ -272,7 +272,7 @@ body {
     transition: all .3s; }
   .sectionServicos--title {
     display: inline-block;
-    margin-bottom: 4rem; }
+    margin-bottom: 6rem; }
     .sectionServicos--title h3 {
       font-size: 3.5rem;
       color: #45c3d3; }
@@ -290,7 +290,9 @@ body {
     padding: 2rem 1.5rem 4rem 1.5rem; }
     .sectionServicos--contentBody h3 {
       color: #333;
-      margin-bottom: .5rem; }
+      margin-bottom: .5rem;
+      font-size: 1.3rem;
+      font-weight: 700; }
     .sectionServicos--contentBody p {
       line-height: 1.5; }
 

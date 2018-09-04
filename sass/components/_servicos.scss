@@ -12,7 +12,7 @@
 
     &--title{
         display: inline-block;
-        margin-bottom: 4rem;
+        margin-bottom: 6rem;
 
         h3{
             font-size: 3.5rem;
@@ -43,6 +43,8 @@
         & h3{
             color: $color-lightBlack;
             margin-bottom: .5rem;
+            font-size: 1.3rem;
+            font-weight: 700;
         }
 
         & p{
