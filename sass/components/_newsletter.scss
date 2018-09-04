@@ -1,0 +1,45 @@
+.sectionNewsletter{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5rem 0 10rem;
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url('../../img/newsletterbg.jpg');
+    background-position: center;
+    background-size: cover;
+
+    &--title{
+        width: 60%;
+        height: auto;
+        display: inline-block;
+    }
+
+    & h3{
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+        color: $color-white;
+    }
+
+    & p{
+        font-size: 1.3rem;
+        color: $color-white;
+    }
+
+    &--fromContainer{
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+   & .section--input--address{
+       width: 70%;
+   }
+
+   & .section--form_wrapper{
+       margin-top: 4rem;
+   }
+
+
+   & .section--form{
+       width: 65%;
+   }
+}
