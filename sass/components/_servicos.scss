@@ -1,0 +1,54 @@
+.sectionServicos{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0 6rem;
+    background-color: $color-lightyellow;
+    text-align: center;
+
+    & img{
+        width: 100%;
+        transition: all .3s;
+    }
+
+    &--title{
+        display: inline-block;
+        margin-bottom: 4rem;
+
+        h3{
+            font-size: 3.5rem;
+            color: $color-lightblue;
+        }
+    }
+
+    &--contentWrapper{
+        width: 100%;
+        height: auto;
+    }
+
+    &--singleServicos{
+        background-color: $color-white;
+        border-radius: .6rem;
+        overflow: hidden;
+        box-shadow: 0px 1px 4px rgba(0, 0,0,.2);
+
+    }
+
+    &--singleServicos:hover img{
+        opacity: .5;
+    }
+
+    &--contentBody{
+        padding: 2rem 1.5rem 4rem 1.5rem;
+
+        & h3{
+            color: $color-lightBlack;
+            margin-bottom: .5rem;
+        }
+
+        & p{
+            line-height: 1.5;
+        }
+    }
+
+
+}
