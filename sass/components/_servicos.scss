@@ -16,7 +16,14 @@
 
         h3{
             font-size: 3.5rem;
+            color: $color-lightBlack;
+            font-weight: 700;
+        }
+
+        span{
+            display: inline-block;
             color: $color-lightblue;
+            border-bottom: 4px solid #45c3d3;
         }
     }
 
