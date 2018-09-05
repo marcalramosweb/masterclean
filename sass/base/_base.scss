@@ -6,11 +6,24 @@
     box-sizing: border-box;
 }
 
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: $color-white;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: $color-dark-gray;
 }
+
+
 
 
 /* Navigation menu */
