@@ -388,6 +388,12 @@ body {
       display: inline-block;
       font-size: .8rem; }
 
+.footer {
+  background-color: #333;
+  padding: 5rem 0 6rem;
+  border-top: 2px solid #fff;
+  color: #fff; }
+
 /* top hero section */
 .section {
   width: 100;
@@ -464,3 +470,5 @@ form {
     width: calc((100% - 3rem) / 2); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 3rem) / 3); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 3rem) / 4); }
