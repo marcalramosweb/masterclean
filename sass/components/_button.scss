@@ -1,16 +1,23 @@
-.btn{
+.btns{
     background-color: rgb(55, 167, 204);
     border-radius: 4px;
-    border: 2px solid rgb(146, 145, 145);
+    border: 1px solid rgb(146, 145, 145);
+    padding: 0;
+    vertical-align: none;
 }
 
-.btn-book a{
-    color: $color-white;
-    padding: 1.5rem 2rem;
+.btns-book a.navigation--link{
+    color: $color-white !important;
+    padding: .5rem 2rem;
+    display: block;
+}
+
+.btns-book a:hover{
+    color: $color-white !important;
 }
 
 
-.btn-form{
+.btns-form{
     font-size: 1.4rem;
     padding: 1.3rem;
     width: 30%;

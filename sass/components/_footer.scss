@@ -5,7 +5,19 @@
     color: $color-white;
 
     &--innerWrapper {
+        
+        h3{
+            font-weight: bold;
+            text-align: center;
+        }
 
+
+        ul {
+            list-style: none;
+
+        }
+
+    }
 
 }
 

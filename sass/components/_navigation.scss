@@ -1,7 +1,19 @@
 
+
+
+//contact style
+
+.contactBox{
+    width: 100%;
+    display: inline-block;
+    background-color: $color-darkblue;
+    color: $color-white;
+    padding: .3rem 0 .3rem 2rem;
+}
+
+
 .navigation{
     width: 100%;
-    height: 75px;
     padding: 2rem 0;
 
     &--logo--wrapper{
@@ -15,8 +27,10 @@
         display: inline-block;
         text-decoration: none;
         font-size: 1.5rem;
-        font-weight: 700;
-        text-decoration: none !important;
+    }
+
+    &--brand h2{
+        font-weight:bold;
     }
 
     &--brand h2 span{
@@ -34,22 +48,30 @@
     &--menu ul{
         list-style: none;
         text-align: right;
+        margin: 0px;
     }
     
     &--menu ul li{
         display: inline-block;
-        padding: .4rem;
-        font-size: 1.2rem;
         font-weight: 300;
     }
     
     &--link{
         text-decoration: none;
         color: $color-dark-gray;
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+    &--link-btn{
+        text-decoration: none;
+        color: $color-white !important;
+        display: block;
+        padding: .5rem 2rem;
     }
 
     &--link:hover{
-        color: #333;
+        color: #333 !important;
     }
     
     &--item{
