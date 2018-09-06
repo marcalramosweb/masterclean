@@ -9,6 +9,15 @@
     background-color: $color-darkblue;
     color: $color-white;
     padding: .3rem 0 .3rem 2rem;
+
+    &--contact--email{
+        width: 100%;
+        font-weight: 300 !important;
+    }
+
+    &--email{
+        
+    }
 }
 
 

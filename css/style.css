@@ -81,6 +81,9 @@ body {
   background-color: #29b9cc;
   color: #fff;
   padding: .3rem 0 .3rem 2rem; }
+  .contactBox--contact--email {
+    width: 100%;
+    font-weight: 300 !important; }
 
 .navigation {
   width: 100%;
