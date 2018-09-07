@@ -4,8 +4,12 @@ $(function() {
    const el = document.getElementById('op1');
 
    el.addEventListener("click", function(){
-        const valuex = el.innerText;
-       console.log(valuex);
+     
+
+    const tplimpeza = el.innerText;
+
+    document.querySelector('.result-tipo-limpeza').textContent = tplimpeza;
+
    });
 
 });
