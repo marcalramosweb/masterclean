@@ -1,0 +1,82 @@
+.bookTitleWrapper{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: $color-lightBlack;
+    padding-top: 5rem;
+    position: relative;
+
+
+
+    h1{
+        font-weight: 700;
+        font-size: 3rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+        color: $color-dark-gray;
+    }
+
+    &--pref-servicos,
+    &--detalhes{
+        display: inline-block;
+        width: 100%;
+        background-color: $color-lightblue;
+        border-radius: 4px;
+        padding: 1.2rem 1.4rem;
+        color: $color-white;
+        margin-bottom: 3rem;
+
+        h3{
+            font-weight: 700;
+            font-size: 1.3rem;
+            margin-bottom: 0 !important;
+        }
+
+
+
+    }
+
+
+
+}
+
+
+        //RADIO BUTTONS
+
+        .styled-radio input[type=radio]{
+            position: absolute;
+            visibility: hidden;
+            display: none;
+        }
+
+        .styled-radio label{
+            color: #3f4b5e;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: 700;
+            padding: 20px;
+            width: 100%;
+            border: 2px solid #e2e6e7;
+            border-radius: 8px;
+            text-align: center;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
+            transition: .3s;
+        }
+
+        .styled-radio label:hover{
+            border-color: #10b2e7;
+            color: #10b2e7;
+        }
+
+        .tipodelimpeza{
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+        }
+
+

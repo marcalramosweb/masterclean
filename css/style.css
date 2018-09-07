@@ -443,6 +443,62 @@ body {
   .footer--innerWrapper ul {
     list-style: none; }
 
+.bookTitleWrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #333;
+  padding-top: 5rem;
+  position: relative; }
+  .bookTitleWrapper h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem; }
+  .bookTitleWrapper p {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    color: #777; }
+  .bookTitleWrapper--pref-servicos, .bookTitleWrapper--detalhes {
+    display: inline-block;
+    width: 100%;
+    background-color: #45c3d3;
+    border-radius: 4px;
+    padding: 1.2rem 1.4rem;
+    color: #fff;
+    margin-bottom: 3rem; }
+    .bookTitleWrapper--pref-servicos h3, .bookTitleWrapper--detalhes h3 {
+      font-weight: 700;
+      font-size: 1.3rem;
+      margin-bottom: 0 !important; }
+
+.styled-radio input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none; }
+
+.styled-radio label {
+  color: #3f4b5e;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 20px;
+  width: 100%;
+  border: 2px solid #e2e6e7;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.styled-radio label:hover {
+  border-color: #10b2e7;
+  color: #10b2e7; }
+
+.tipodelimpeza {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem; }
+
 /* top hero section */
 .section {
   width: 100;
@@ -521,3 +577,5 @@ form {
     width: calc((100% - 2 * 3rem) / 3); }
   .row .col-1-of-4 {
     width: calc((100% - 3 * 3rem) / 4); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 4 * 3rem) / 4) + 2 * 3.5rem); }
