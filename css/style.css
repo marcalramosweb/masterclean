@@ -84,6 +84,9 @@ body {
   .contactBox--contact--email {
     width: 100%;
     font-weight: 300 !important; }
+  .contactBox--email i {
+    display: block;
+    margin-right: 3px; }
 
 .navigation {
   width: 100%;
