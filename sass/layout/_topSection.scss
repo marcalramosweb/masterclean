@@ -23,10 +23,9 @@
 
 
     &--title{
-        font-size: 4.5rem;
-        text-transform: capitalize;
+        font-size: 3.5rem;
+        text-transform: uppercase;
         font-weight: 700;
-        margin-bottom: 2rem;
         text-shadow: 1px 1px 55px rgba(0,0,0,.47);
         animation: moveInLeft 2.5s ease-out;
     }
@@ -77,6 +76,7 @@
     }
 
 }
+
 
 
 form{

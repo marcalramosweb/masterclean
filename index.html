@@ -14,6 +14,8 @@
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <!--stylesheet-->
@@ -21,19 +23,22 @@
 </head>
 <body>
 <div class="container--fluid">
+
     <div class="contactBox clearFix">
-        <div class="contactBox--contact--email clearFix">
-            <span class="contactBox--email"><i class="fas fa-envelope"></i>info@masterclean.com</span>
-            <span class="contactBox--contact-number"><i class="fas fa-phone"></i>013 453 3562</span>
+            <div class="contactBox--inner-wr">
+                    <span class="contactBox--email"><i class="fas fa-envelope"></i>info@masterclean.com</span>
+                    <span class="contactBox--contact-number"><i class="fas fa-phone"></i>013 453 3562</span>
+            </div>
             <div class="contactBox--socialMedia">
-            <span class="contactBox--facebook"><i class="fab fa-facebook-square"></i></span>
-            <span class="contactBox--twitter"><i class="fab fa-twitter-square"></i></span>
-            <span class="contactBox--googlePlus"><i class="fab fa-google-plus-square"></i></span>
-            <span class="contactBox--linkdin"><i class="fab fa-linkedin"></i></span>
+                <span class="contactBox--facebook"><i class="fab fa-facebook-square"></i></span>
+                <span class="contactBox--twitter"><i class="fab fa-twitter-square"></i></span>
+                <span class="contactBox--googlePlus"><i class="fab fa-google-plus-square"></i></span>
+                <span class="contactBox--linkdin"><i class="fab fa-linkedin"></i></span>
             </div>
 
         </div>
     </div>
+
     <nav class="navigation clearFix">
         <div class="navigation--logo--wrapper">
             <a href="index.html" class="navigation--brand">
@@ -42,11 +47,13 @@
         </div>
 
         <div class="navigation--menu">
-            <ul>
+               <a href="#" class="navigation--link"><i class="fas fa-bars"></i></a>
+
+            <ul class="navigation--menu-list navigation--menu-list-hide">
                 <li class="navigation--item"><a href="#" class="navigation--link">Como funciona</a></li>
                 <li class="navigation--item"><a href="#" class="navigation--link">Nossos Servicos</a></li>
-                <li class="btns btn-book"><a href="Book-services.html" class="navigation--link-btn">Book Now</a></li>
             </ul>
+            <a class="btns btn-book" href="Book-services.html" class="navigation--link-btn">Book Now</a>
         </div>
     </nav>
 
@@ -54,10 +61,10 @@
     <section class="section">
         <div class="section--wrapper">
             <h1 class="section--title">
-                Cuidamos da sua casa
+                Limpamos a sua casa
             </h1>
             <p class="section--paragraph">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt, reprehenderit molestias nostrum, deleniti suscipit temporibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt, reprehenderit.
             </p>
 
             <form action="#" class="section--form_wrapper">
@@ -88,7 +95,7 @@
         <div class="container">
 
             <div class="sectionComoFuncionaWrapper--title--wrapper">
-                    <h3 class="sectionComoFuncionaWrapper--title">Como <span>funciona</span></h3>
+                    <h3 class="sectionComoFuncionaWrapper--title"><span>Como funciona</span></h3>
                     <p class="sectionComoFuncionaWrapper--paragrafo">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
@@ -129,7 +136,7 @@
     <section class="sectionServicos clearFix">
         <div class="container">
             <div class="sectionServicos--title">
-                <h3>Alguns dos Nossos <span>Servicos</span></h3>
+                <h3><span>Alguns dos Nossos Servicos</span></h3>
             </div>
 
             <div class="sectionServicos--contentWrapper clearFix">
@@ -284,7 +291,7 @@
 
     <section class="sectionLatestNews">
         <div class="container">
-                <h3>Ultimas <span>Noticias</span></h3>
+                <h3><span>Blog</span></h3>
             <div class="row">
                 <div class="col-1-of-3">
                     <div class="sectionLatestNews--singlePostWrapper">
