@@ -20,7 +20,7 @@
     }
 
     &--titleWrapper p{
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.2;
         color: #777;
     }
@@ -98,6 +98,26 @@
     &--cargo small{
         font-weight: 700;
         font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .sectionTestemunhos{
+
+        padding: 3rem 0 4rem;
+
+        &--titleWrapper h1{
+            font-size: 3rem;
+        }
+
+        &--content{
+            width: 100%;
+        }
+
+        &--content:not(:last-child){
+            margin-bottom: 4rem;
+        }
+
     }
 }
 

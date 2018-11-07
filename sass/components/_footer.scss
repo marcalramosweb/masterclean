@@ -5,19 +5,45 @@
     color: $color-white;
 
     &--innerWrapper {
+
+        text-align: center;
         
         h3{
             font-weight: bold;
             text-align: center;
         }
 
+        h3 span{
+            color: #37a7cc;
+        }
+
 
         ul {
             list-style: none;
-
         }
 
     }
 
+}
+
+@media only screen and (max-width:991px){
+    .footer{
+        .col-1-of-4{
+            width: 100% !important;
+            text-align: center;
+        }
+
+        .col-1-of-4:not(:last-child){
+            margin-bottom: 1rem;
+        }
+
+        ul li{
+            display: inline-block;
+        }
+
+        ul li:not(:last-child){
+            margin-right: .8rem;
+        }
+    }
 }
 

@@ -60,3 +60,30 @@
     }
 
 }
+
+@media only screen and (max-width:991px){
+    .sectionServicos{
+
+        padding: 3rem 0 4rem;
+
+        &--title{
+            margin-bottom: 3rem;
+        }
+
+        &--title h3{
+            font-size: 3rem;
+        }
+
+
+
+        .row{
+            margin-bottom: 0 !important;
+        }
+
+        .col-1-of-3:not(:last-child){
+            margin-bottom: 2.5rem;
+        }
+
+
+    }
+}

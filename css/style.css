@@ -234,9 +234,9 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  padding: 5rem 0 10rem; }
+  padding: 5rem 0 6rem; }
   .sectionComoFuncionaWrapper--title--wrapper {
-    margin-bottom: 5rem; }
+    margin-bottom: 2.5rem; }
   .sectionComoFuncionaWrapper--title {
     font-size: 3.5rem;
     color: #444;
@@ -248,7 +248,6 @@ body {
     display: inline-block;
     border-bottom: 4px solid #45c3d3; }
   .sectionComoFuncionaWrapper--paragrafo {
-    font-size: 1.3rem !important;
     color: #333;
     color: #777; }
   .sectionComoFuncionaWrapper--process--container {
@@ -267,9 +266,11 @@ body {
     line-height: 1.5; }
 
 @media only screen and (max-width: 991px) {
-  .sectionComoFuncionaWrapper--title {
-    font-size: 3rem; }
-  .col-1of-3 {
+  .sectionComoFuncionaWrapper {
+    padding: 3rem 0 4rem; }
+    .sectionComoFuncionaWrapper--title {
+      font-size: 3rem; }
+  .col-1-of-3 {
     width: 100% !important; } }
 
 .sectionTestemunhos {
@@ -289,7 +290,7 @@ body {
     margin-bottom: 1rem;
     color: #45c3d3; }
   .sectionTestemunhos--titleWrapper p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.2;
     color: #777; }
   .sectionTestemunhos--contentWrapper {
@@ -346,6 +347,16 @@ body {
     font-weight: 700;
     font-size: 1.1rem; }
 
+@media only screen and (max-width: 991px) {
+  .sectionTestemunhos {
+    padding: 3rem 0 4rem; }
+    .sectionTestemunhos--titleWrapper h1 {
+      font-size: 3rem; }
+    .sectionTestemunhos--content {
+      width: 100%; }
+    .sectionTestemunhos--content:not(:last-child) {
+      margin-bottom: 4rem; } }
+
 .sectionNewsletter {
   width: 100%;
   height: auto;
@@ -361,7 +372,8 @@ body {
   .sectionNewsletter h3 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: #fff; }
+    color: #fff;
+    font-weight: bold; }
   .sectionNewsletter p {
     font-size: 1.3rem;
     color: #fff; }
@@ -375,6 +387,22 @@ body {
     margin-top: 4rem; }
   .sectionNewsletter .section--form {
     width: 65%; }
+
+@media only screen and (max-width: 991px) {
+  .sectionNewsletter--title {
+    width: 90%; }
+  .sectionNewsletter--title h3 {
+    font-size: 2.9rem; }
+  .sectionNewsletter .section--form {
+    width: 90%;
+    display: block !important;
+    margin: 0 auto; }
+  .sectionNewsletter .section--input--address {
+    width: 100%;
+    display: block;
+    margin-bottom: .3rem; }
+  .sectionNewsletter .btns-form {
+    width: 100%; } }
 
 .sectionServicos {
   width: 100%;
@@ -416,6 +444,18 @@ body {
     .sectionServicos--contentBody p {
       line-height: 1.5; }
 
+@media only screen and (max-width: 991px) {
+  .sectionServicos {
+    padding: 3rem 0 4rem; }
+    .sectionServicos--title {
+      margin-bottom: 3rem; }
+    .sectionServicos--title h3 {
+      font-size: 3rem; }
+    .sectionServicos .row {
+      margin-bottom: 0 !important; }
+    .sectionServicos .col-1-of-3:not(:last-child) {
+      margin-bottom: 2.5rem; } }
+
 .callToAction {
   width: 100%;
   padding: 10rem 0;
@@ -447,6 +487,10 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     cursor: pointer; }
+
+@media only screen and (max-width: 991px) {
+  .callToAction {
+    padding: 3rem 0; } }
 
 .sectionLatestNews {
   width: 100%;
@@ -488,16 +532,41 @@ body {
       display: inline-block;
       font-size: .8rem; }
 
+@media only screen and (max-width: 991px) {
+  .row [class^="col-"]:not(:last-child) {
+    margin-right: 0rem !important; }
+  .sectionLatestNews {
+    padding: 2rem 0 4rem; }
+    .sectionLatestNews .col-1-of-3:not(:last-child) {
+      margin-bottom: 2.5rem; }
+    .sectionLatestNews h3 {
+      font-size: 2.9rem; } }
+
 .footer {
   background-color: #333;
   padding: 5rem 0 6rem;
   border-top: 2px solid #fff;
   color: #fff; }
-  .footer--innerWrapper h3 {
-    font-weight: bold;
+  .footer--innerWrapper {
     text-align: center; }
-  .footer--innerWrapper ul {
-    list-style: none; }
+    .footer--innerWrapper h3 {
+      font-weight: bold;
+      text-align: center; }
+    .footer--innerWrapper h3 span {
+      color: #37a7cc; }
+    .footer--innerWrapper ul {
+      list-style: none; }
+
+@media only screen and (max-width: 991px) {
+  .footer .col-1-of-4 {
+    width: 100% !important;
+    text-align: center; }
+  .footer .col-1-of-4:not(:last-child) {
+    margin-bottom: 1rem; }
+  .footer ul li {
+    display: inline-block; }
+  .footer ul li:not(:last-child) {
+    margin-right: .8rem; } }
 
 .bookTitleWrapper {
   width: 100%;

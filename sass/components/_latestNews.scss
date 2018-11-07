@@ -59,4 +59,21 @@
 }
 
 
+@media only screen and (max-width:991px){
 
+    .row [class^="col-"]:not(:last-child) {
+        margin-right: 0rem !important;
+    }
+
+    .sectionLatestNews{
+        padding: 2rem 0 4rem;
+        .col-1-of-3:not(:last-child){
+            margin-bottom: 2.5rem;
+        }
+
+        h3{
+            font-size: 2.9rem;
+        }
+
+    }
+}

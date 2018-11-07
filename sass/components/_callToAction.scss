@@ -40,3 +40,9 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width:991px){
+    .callToAction{
+        padding: 3rem 0;
+    }
+}
