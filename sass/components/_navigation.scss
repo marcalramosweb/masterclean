@@ -8,9 +8,11 @@
     display: inline-block;
     background-color: $color-darkblue;
     color: $color-white;
-    padding: .3rem 2rem .3rem 2rem;
+    padding: .4rem 2rem .4rem 2rem;
     position: relative;
-
+    i{
+        font-size: 1.2rem;
+    }
     &--inner-wr span{
         margin-right: 1.5rem;
     }
@@ -63,6 +65,11 @@
         float: left;
     }
 
+    &--humburger-menu{
+        font-size: 2.3rem;
+        padding: 0 !important;
+    }
+
     &--brand{
         padding: 0rem 2rem;
         display: inline-block;
@@ -83,7 +90,6 @@
         height: auto;
         float: left;
         padding: 0rem 5rem 0rem 2rem;
-        text-align: right;
     }
 
 
@@ -137,13 +143,26 @@
 
 @media only screen and (min-width:991px){
     .navigation{
-        &--item-mobile{
-            display: none !important;
+ 
+
+        &--menu{
+            text-align: right;
+        }
+
+        &--humburger-menu{
+            display: none;
         }
     }
+
+
 }
 
 @media only screen and (max-width:991px){
+
+    .btns{
+        float: right;
+        padding: 0.8rem 2rem;
+    }
 
     .section--wrapper{
         width: 100% !important;
@@ -202,11 +221,6 @@
         &--menu{
             width: 100%;
             padding: 0 1.5rem;
-            text-align: left;
-        }
-
-        &--item-mobile{
-            float: left;
         }
     }
 }
