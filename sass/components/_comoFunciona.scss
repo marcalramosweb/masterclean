@@ -56,3 +56,15 @@
     }
 
 }
+
+@media only screen and (max-width: 991px){
+    .sectionComoFuncionaWrapper{
+        &--title{
+            font-size: 3rem;
+        }
+    }
+
+ .col-1of-3{
+        width: 100% !important;
+    }
+}
