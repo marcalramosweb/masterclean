@@ -186,7 +186,8 @@ body {
     .section--wrapper .section--input--address,
     .section--wrapper .section--input--houseNumber {
       width: 100%;
-      margin-bottom: 3px; }
+      margin-bottom: 3px;
+      text-align: center; }
     .section--wrapper .btns-form {
       width: 100%; }
   .navigation--menu .navigation--item {
@@ -400,7 +401,8 @@ body {
   .sectionNewsletter .section--input--address {
     width: 100%;
     display: block;
-    margin-bottom: .3rem; }
+    margin-bottom: .3rem;
+    text-align: center; }
   .sectionNewsletter .btns-form {
     width: 100%; } }
 
